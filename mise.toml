@@ -1,4 +1,11 @@
 [tools]
-bun = "latest"
-node = "latest"
-viteplus = "latest"
+node = "lts"
+
+[deps.pnpm]
+auto = true
+
+[settings]
+lockfile = true
+
+[settings.node]
+corepack = true
