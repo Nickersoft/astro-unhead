@@ -7,9 +7,9 @@ A middleware holds a per-request unhead instance in `AsyncLocalStorage`, so the 
 ## Installation
 
 ```bash
-bun add astro-unhead unhead
+pnpm add astro-unhead unhead
 # optional, for useSchemaOrg
-bun add @unhead/schema-org
+pnpm add @unhead/schema-org
 ```
 
 ## Setup
@@ -115,8 +115,8 @@ Late head updates are applied client-side, so they require JavaScript to run in 
 ## Development
 
 ```bash
-bun install        # install dependencies
-bun run test       # run the unit tests
-bun run check      # format, lint, and type-check
-bun run build      # build the library
+pnpm install        # install dependencies
+pnpm run test       # run the unit tests
+pnpm run check      # format, lint, and type-check
+pnpm run build      # build the library
 ```
