@@ -1,8 +1,16 @@
 [tools]
+lefthook = "latest"
 node = "lts"
 
 [deps.pnpm]
 auto = true
+
+[deps.lefthook]
+sources = ["lefthook.yml"]
+outputs = [".git/hooks/"]
+run = "lefthook install"
+auto = true
+description = "Setup lefthook"
 
 [settings]
 lockfile = true
