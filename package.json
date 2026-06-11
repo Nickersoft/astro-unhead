@@ -1,7 +1,7 @@
 {
   "name": "astro-unhead",
-  "version": "0.0.0",
-  "description": "A starter for creating a TypeScript package.",
+  "version": "1.0.0",
+  "description": "Unhead.js middleware for Astro",
   "keywords": [
     "astro-integration",
     "unhead",
