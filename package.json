@@ -1,0 +1,18 @@
+{
+  "name": "astro-unhead",
+  "private": true,
+  "workspaces": [
+    "package",
+    "example"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/bun": "latest",
+    "semantic-release": "^25.0.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

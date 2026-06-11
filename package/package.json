@@ -1,0 +1,62 @@
+{
+  "name": "astro-unhead",
+  "version": "0.0.0",
+  "description": "A starter for creating a TypeScript package.",
+  "homepage": "https://github.com/Nickersoft/astro-unhead#readme",
+  "bugs": {
+    "url": "https://github.com/Nickersoft/astro-unhead/issues"
+  },
+  "license": "MIT",
+  "author": "Tyler Nickerson <radxpictures@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nickersoft/astro-unhead.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./middleware": "./dist/middleware.mjs",
+    "./schema-org": "./dist/schema-org.mjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "build": "vp pack",
+    "dev": "vp pack --watch",
+    "test": "vp test",
+    "check": "vp check",
+    "fix": "vp check --fix",
+    "prepublishOnly": "vp run build"
+  },
+  "dependencies": {
+    "unctx": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "@typescript/native-preview": "7.0.0-dev.20260509.2",
+    "bumpp": "^11.1.0",
+    "typescript": "^6.0.3",
+    "vite-plus": "^0.1.20"
+  },
+  "peerDependencies": {
+    "@unhead/schema-org": "^3.1.1",
+    "astro": "^6",
+    "unhead": "^3.1.1"
+  },
+  "peerDependenciesMeta": {
+    "@unhead/schema-org": {
+      "optional": true
+    }
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+  },
+  "packageManager": "bun@1.3.14"
+}
