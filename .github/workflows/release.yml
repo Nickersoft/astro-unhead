@@ -25,7 +25,7 @@ jobs:
       id-token: write # to enable npm provenance via OIDC
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0 # semantic-release needs full history + tags
           persist-credentials: false
