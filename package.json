@@ -40,7 +40,7 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "unctx": "^2.5.0"
+    "unctx": "^3.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
