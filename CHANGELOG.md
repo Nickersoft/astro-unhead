@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Nickersoft/astro-unhead/compare/v1.0.1...v1.0.2) (2026-09-30)
+
+
+### Bug Fixes
+
+* fix type errors ([e1ee2ce](https://github.com/Nickersoft/astro-unhead/commit/e1ee2ce5b7d74a14f9fa148e951cf3cde81cd8fd))
+
 ## [1.0.1](https://github.com/Nickersoft/astro-unhead/compare/v1.0.0...v1.0.1) (2026-06-11)
 
 ### Bug Fixes
