@@ -31,7 +31,7 @@ jobs:
           persist-credentials: false
 
       - name: Setup Dependencies
-        uses: jdx/mise-action@v4
+        uses: jdx/mise-action@v5
 
       - name: Type-check & lint
         run: pnpm run check
