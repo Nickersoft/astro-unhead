@@ -40,21 +40,20 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "unctx": "^2.5.0"
+    "unctx": "^3.0.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "@types/node": "^25.6.2",
-    "@typescript/native-preview": "7.0.0-dev.20260509.2",
-    "bumpp": "^11.1.0",
-    "typescript": "^6.0.3",
-    "vite-plus": "^0.1.20"
+    "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/git": "^11.0.1",
+    "@types/node": "^26.6.3",
+    "bumpp": "^12.3.0",
+    "typescript": "^7.0.2",
+    "vite-plus": "^1.0.0"
   },
   "peerDependencies": {
-    "@unhead/schema-org": "^3.1.1",
+    "@unhead/schema-org": "^3.4.2",
     "astro": "^6",
-    "unhead": "^3.1.1"
+    "unhead": "^3.4.2"
   },
   "peerDependenciesMeta": {
     "@unhead/schema-org": {
@@ -65,5 +64,5 @@
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
     "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
   },
-  "packageManager": "pnpm@11.5.3+sha512.7ac1c919341c213a34dc0d02afb7143c5c26ac26ee8c4782deea821b8ac64d2134a081fd8941dae6e29bbb48f58dfc2b7fbceeccc07cb2f09d219d342a4969ed"
+  "packageManager": "pnpm@12.8.1"
 }
