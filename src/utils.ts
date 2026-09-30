@@ -5,7 +5,7 @@ import { ctx } from "./ctx.ts";
 type UnheadHook = (head: Unhead, ...input: any[]) => unknown;
 
 type DropHead<Hook extends UnheadHook> =
-  Parameters<Hook> extends [Unhead, ...infer Rest] ? Rest : never;
+  Parameters<Hook> extends [unknown, ...infer Rest] ? Rest : never;
 
 export function wrap<Hook extends UnheadHook>(
   hook: Hook,
