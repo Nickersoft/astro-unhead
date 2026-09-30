@@ -52,7 +52,7 @@
   },
   "peerDependencies": {
     "@unhead/schema-org": "^3.4.2",
-    "astro": "^6",
+    "astro": "^6 || ^7.0.0",
     "unhead": "^3.4.2"
   },
   "peerDependenciesMeta": {
